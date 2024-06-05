@@ -1,0 +1,23 @@
+body {
+  background: rgb(80, 121, 236);
+}
+
+.logo {
+  width: 30%;
+}
+
+.bg-black {
+  background: #090909;
+}
+.card {
+  border-radius: 40px; /* Ajusta el valor según el nivel de redondez que desees */
+}
+.btn {
+  border-radius: 60px; /* Ajusta el valor según el nivel de redondez que desees para los botones */
+}
+.form-control {
+  border-radius: 40px;
+}
+.alert {
+  border-radius: 20px; /* Ajusta el valor según el nivel de redondez que desees para los mensajes emergentes */
+}

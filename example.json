@@ -1,0 +1,73 @@
+{
+    "users": [
+      {
+        "id": "1",
+        "username": "user1",
+        "email": "user1@example.com",
+        "password": "hashedpassword1",
+        "notes": [
+          {
+            "id": "101",
+            "title": "Nota 1 de user1",
+            "content": "Contenido de la nota 1 de user1",
+            "date": "2024-06-05T12:00:00Z"
+          },
+          {
+            "id": "102",
+            "title": "Nota 2 de user1",
+            "content": "Contenido de la nota 2 de user1",
+            "date": "2024-06-06T12:00:00Z"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "username": "user2",
+        "email": "user2@example.com",
+        "password": "hashedpassword2",
+        "notes": [
+          {
+            "id": "201",
+            "title": "Nota 1 de user2",
+            "content": "Contenido de la nota 1 de user2",
+            "date": "2024-06-05T14:00:00Z"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      {
+        "id": "101",
+        "userId": "1",
+        "title": "Nota 1 de user1",
+        "content": "Contenido de la nota 1 de user1",
+        "date": "2024-06-05T12:00:00Z"
+      },
+      {
+        "id": "102",
+        "userId": "1",
+        "title": "Nota 2 de user1",
+        "content": "Contenido de la nota 2 de user1",
+        "date": "2024-06-06T12:00:00Z"
+      },
+      {
+        "id": "201",
+        "userId": "2",
+        "title": "Nota 1 de user2",
+        "content": "Contenido de la nota 1 de user2",
+        "date": "2024-06-05T14:00:00Z"
+      }
+    ],
+    "config": {
+      "database": {
+        "host": "localhost",
+        "port": 27017,
+        "name": "notesapp"
+      },
+      "server": {
+        "host": "localhost",
+        "port": 3000
+      }
+    }
+  }
+  
